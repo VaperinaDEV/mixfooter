@@ -1,12 +1,15 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: $primary;
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%),linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+  box-shadow: 0px -5px 10px rgba(var(--always-black-rgb), 0.2);
+  -webkit-box-shadow: 0px -5px 10px rgba(var(--always-black-rgb), 0.2);
+  -moz-box-shadow: 0px -5px 10px rgba(var(--always-black-rgb), 0.2);
   .flexbox {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: $secondary;
+    color: var(--primary, $primary);
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -18,7 +21,7 @@
       display: block;
     }
     .blurb {
-      color: $secondary-high;
+      color: var(--secondary-medium, $secondary-medium);
     }
   }
   .second-box {
@@ -54,7 +57,7 @@
         justify-content: center;
 
         .d-icon {
-          color: $secondary;
+          color: var(--secondary-medium, $secondary-medium);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -63,7 +66,7 @@
       }
     }
     .small-link {
-      color: $secondary-high;
+      color: var(--secondary-medium, $secondary-medium);
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -75,7 +78,7 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: $secondary-high;
+    color: var(--secondary-medium, $secondary-medium);
   }
   .list {
     margin: 1em;
@@ -127,6 +130,7 @@
     }
     .third-box {
       margin-top: 0.5em;
+      margin-bottom: 40px;
     }
     .second-box .links {
       justify-content: space-between;
@@ -158,4 +162,19 @@
 
 .static-login .custom-footer {
   margin-top: 3em;
+}
+
+.partnersdiv {
+    display: flex;
+    width: calc(100vw - 20px);
+    background: var(--secondary-high, $secondary-high);
+    border-radius: 4px;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.partnersdiv a,
+.partnersdiv img {
+    width: 200px;
+    padding: 10px;
 }
