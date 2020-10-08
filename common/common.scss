@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     color: var(--primary, $primary);
     padding: 2em 0 1em 0;
+    margin-bottom: 40px;
   }
   .first-box {
     max-width: 20%;
@@ -130,7 +131,6 @@
     }
     .third-box {
       margin-top: 0.5em;
-      margin-bottom: 49px;
     }
     .second-box .links {
       justify-content: space-between;
