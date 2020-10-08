@@ -173,8 +173,11 @@
     overflow-x: scroll;
 }
 
-.partnersdiv a,
-.partnersdiv img {
+.partnersdiv a img {
     width: 200px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.jpg-brpartner {
+  border-radius: 30px;
 }
