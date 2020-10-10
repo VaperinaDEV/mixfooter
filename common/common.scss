@@ -1,6 +1,7 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
   background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%),linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   box-shadow: 0 -2px 8px 2px rgba(0,0,0,0.15);
   -webkit-box-shadow: 0 -2px 8px 2px rgba(0,0,0,0.15);
