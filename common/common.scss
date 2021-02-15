@@ -162,7 +162,7 @@
 }
 
 .partnersdiv {
-    display: flex;
+    display: none;
     width: calc(100vw - 20px);
     background: var(--secondary-high, $secondary-high);
     border-radius: 4px;
