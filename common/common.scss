@@ -160,21 +160,3 @@
 .static-login .custom-footer {
   margin-top: 3em;
 }
-
-.partnersdiv {
-    display: none;
-    width: calc(100vw - 20px);
-    background: var(--secondary-high, $secondary-high);
-    border-radius: 4px;
-    align-items: center;
-    overflow-x: scroll;
-}
-
-.partnersdiv a img {
-    width: 200px;
-    padding: 20px;
-}
-
-.jpg-brpartner {
-  border-radius: 30px;
-}
