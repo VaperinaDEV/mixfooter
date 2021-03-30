@@ -104,15 +104,6 @@
   min-height: 100vh;
 }
 
-#main-outlet {
-  flex: 1 0 auto;
-  max-width: calc(100% - 16px);
-  .mobile-view & {
-    max-width: calc(100% - 20px);
-  }
-  width: $large-width;
-}
-
 @media screen and (max-width: 1120px) {
   .custom-footer {
     .first-box {
