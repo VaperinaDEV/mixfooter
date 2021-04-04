@@ -2,12 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  background: var(--secondary, $secondary);
+  background: var(--secondary);
   .flexbox {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--primary, $primary);
+    color: var(--primary);
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -19,7 +19,7 @@
       display: block;
     }
     .blurb {
-      color: var(--secondary-medium, $secondary-medium);
+      color: var(--secondary-medium);
     }
   }
   .second-box {
@@ -55,7 +55,7 @@
         justify-content: center;
 
         .d-icon {
-          color: var(--secondary-medium, $secondary-medium);
+          color: var(--secondary-medium);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -64,7 +64,7 @@
       }
     }
     .small-link {
-      color: var(--secondary-medium, $secondary-medium);
+      color: var(--secondary-medium);
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -76,7 +76,7 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: var(--secondary-medium, $secondary-medium);
+    color: var(--secondary-medium);
   }
   .list {
     margin: 1em;
