@@ -97,13 +97,6 @@
   }
 }
 
-// sticky footer
-#main > div:first-child {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 @media screen and (max-width: 1120px) {
   .custom-footer {
     .first-box {
